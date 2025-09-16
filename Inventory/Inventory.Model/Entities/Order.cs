@@ -1,6 +1,6 @@
 ﻿using Inventory.Service.EnumShares;
 
-namespace Inventory.Model.Entites
+namespace Inventory.Model.Entities
 {
     public class Order
     {
@@ -13,7 +13,7 @@ namespace Inventory.Model.Entites
         public decimal Tax { get; set; }
         public decimal ShippingCharges { get; set; } // chi phí vận chuyển
         public decimal Total { get; set; }
-        public string PromoCode { get; set; } 
+        public string PromoCode { get; set; }
         public decimal Discount { get; set; }
         public decimal GrandTotal { get; set; }
         public string Decription { get; set; } = string.Empty;

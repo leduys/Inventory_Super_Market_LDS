@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventory.Model.Entites
+namespace Inventory.Model.Entities
 {
     public class Brand
     {

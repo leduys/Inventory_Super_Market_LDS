@@ -1,6 +1,6 @@
 ﻿using Inventory.Service.EnumShares;
 
-namespace Inventory.Model.Entites
+namespace Inventory.Model.Entities
 {
     public class Item
     {

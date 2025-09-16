@@ -1,36 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project 2025\\MagicVilla\\Inventory\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.model\\entites\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.model\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.service\\enumshares\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.service\\enumshares\\enumstatusitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\enumstatusitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.service\\enumshares\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.model\\entites\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\magicvilla\\inventory\\inventory.model\\entites\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,110 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\AppUser.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\AppUser.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\AppUser.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:51:29.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:39:52.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderType.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\OrderType.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\OrderType.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\OrderType.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\OrderType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:36:43.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Order.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Order.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Order.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:35:11.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnumStatusItem.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:27:47.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Item.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Item.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Item.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:24:00.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Brand.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Brand.cs",
-              "ToolTip": "C:\\Project 2025\\MagicVilla\\Inventory\\Inventory.Model\\Entites\\Brand.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:22:18.656Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

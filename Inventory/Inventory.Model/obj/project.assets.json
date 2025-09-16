@@ -4851,23 +4851,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SONLD\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Inventory.Model.csproj",
+      "projectUniqueName": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Inventory.Model.csproj",
       "projectName": "Inventory.Model",
-      "projectPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Inventory.Model.csproj",
-      "packagesPath": "C:\\Users\\SONLD\\.nuget\\packages\\",
-      "outputPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\obj\\",
+      "projectPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Inventory.Model.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SONLD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4882,17 +4882,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
-              "projectPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj"
+            "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
+              "projectPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj"
             },
-            "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\Inventory.Service.csproj": {
-              "projectPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\Inventory.Service.csproj"
+            "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\Inventory.Service.csproj": {
+              "projectPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\Inventory.Service.csproj"
             },
-            "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
-              "projectPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"
+            "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
+              "projectPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"
             },
-            "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {
-              "projectPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Web\\Inventory.Web.csproj"
+            "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {
+              "projectPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Web\\Inventory.Web.csproj"
             }
           }
         }
@@ -4938,7 +4938,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

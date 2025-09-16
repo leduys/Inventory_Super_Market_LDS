@@ -1,34 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\",
+  "WorkspaceRootPath": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.model\\entites\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.model\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\paymentvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\paymentvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.service\\enumshares\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\invoicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\invoicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.service\\enumshares\\enumstatusitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\enumstatusitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.service\\enumshares\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A7FADF5-92D5-406E-8515-1C3EE57FBA69}|Inventory.Service\\Inventory.Service.csproj|solutionrelative:inventory.service\\enumshares\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.model\\entites\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|c:\\project 2025\\inventory_super_market_lds\\inventory\\inventory.model\\entites\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entites\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\vendortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\vendortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\billtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\billtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|d:\\inventory\\inventory_super_market_lds\\inventory\\inventory.model\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A3D18C-D00C-4F56-8242-A70468250B48}|Inventory.Model\\Inventory.Model.csproj|solutionrelative:inventory.model\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,104 +86,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\AppUser.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\AppUser.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\AppUser.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\PaymentType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\PaymentType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\PaymentType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:51:29.616Z",
+              "WhenOpened": "2025-09-16T11:02:41.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentVoucher.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\PaymentVoucher.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\PaymentVoucher.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\PaymentVoucher.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\PaymentVoucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:55:16.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\InvoiceType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\InvoiceType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\InvoiceType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\InvoiceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:53:40.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Invoice.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Invoice.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:49:10.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\ProductType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\ProductType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\ProductType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\ProductType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:39:52.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderType.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\OrderType.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\OrderType.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\OrderType.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\OrderType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:36:43.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Order.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Order.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Order.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:35:11.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnumStatusItem.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "RelativeDocumentMoniker": "Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "RelativeToolTip": "Inventory.Service\\EnumShares\\EnumStatusItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:27:47.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Item.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Item.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Item.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:24:00.954Z"
+              "WhenOpened": "2025-09-16T10:46:01.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Brand.cs",
-              "RelativeDocumentMoniker": "Inventory.Model\\Entites\\Brand.cs",
-              "ToolTip": "C:\\Project 2025\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entites\\Brand.cs",
-              "RelativeToolTip": "Inventory.Model\\Entites\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Product.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Product.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:22:18.656Z"
+              "WhenOpened": "2025-09-16T10:40:48.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\CustomerType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\CustomerType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\CustomerType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\CustomerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:38:26.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Customer.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Customer.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:32:21.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\UserProfile.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:27:51.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VendorType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\VendorType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\VendorType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\VendorType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\VendorType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:25:38.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Order.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Order.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:29.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Item.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Item.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:26.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Brand.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Brand.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:22.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Branch.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Branch.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Branch.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:17.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BillType.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\BillType.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\BillType.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\BillType.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\BillType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:14.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Bill.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Bill.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Bill.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:19:09.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Vendor.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\Vendor.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\Vendor.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\Vendor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:17:30.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\AppUser.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:17:04.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WareHouse.cs",
+              "DocumentMoniker": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\WareHouse.cs",
+              "RelativeDocumentMoniker": "Inventory.Model\\Entities\\WareHouse.cs",
+              "ToolTip": "D:\\Inventory\\Inventory_Super_Market_LDS\\Inventory\\Inventory.Model\\Entities\\WareHouse.cs",
+              "RelativeToolTip": "Inventory.Model\\Entities\\WareHouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:12:04.707Z",
+              "EditorCaption": ""
             }
           ]
         }
