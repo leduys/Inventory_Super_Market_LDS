@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventory.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a652747626ba8c7b0df75d4ea7d689cd9046b838")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a431994acea6b8ad69afe6288653feb794d50bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventory.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventory.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Inventory.Service\Inventory.Service.csproj" />
-    <ProjectReference Include="..\Inventory.Utility\Inventory.Utility.csproj" />
-    <ProjectReference Include="..\Inventory.Web\Inventory.Web.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inventory.Model\Inventory.Model.csproj" />
   </ItemGroup>
 
 </Project>
