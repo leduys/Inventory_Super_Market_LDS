@@ -1,0 +1,564 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Inventory_Super_Market_LDS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\products\\listproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\products\\listproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\sales\\salesmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\sales\\salesmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\reports\\generalreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\reports\\generalreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\products\\editproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\products\\editproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\products\\addproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\products\\addproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\paymentmethods\\addpaymentmethodform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\paymentmethods\\addpaymentmethodform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\paymentmethods\\editpaymentmethodform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\paymentmethods\\editpaymentmethodform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\paymentmethods\\listpaymentmethods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\paymentmethods\\listpaymentmethods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\import\\importmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\import\\importmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\utils\\userextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\utils\\userextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\services\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\services\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\export\\exportmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\export\\exportmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\paymentmethodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\paymentmethodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\models\\productsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\models\\productsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\models\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\models\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\services\\database\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\services\\database\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|d:\\inventory_super_market_lds\\inventorywebapplication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4337AE7-3D15-4D2D-961B-B2FF2DC86199}|InventoryWebApplication\\InventoryWebApplication.csproj|solutionrelative:inventorywebapplication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesMenu.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Sales\\SalesMenu.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Sales\\SalesMenu.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Sales\\SalesMenu.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Sales\\SalesMenu.cshtml",
+              "ViewState": "AgIAAMQBAAAAAAAAAAAqwPEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T01:10:04.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneralReports.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Reports\\GeneralReports.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Reports\\GeneralReports.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Reports\\GeneralReports.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Reports\\GeneralReports.cshtml",
+              "ViewState": "AgIAALUAAAAAAAAAAAAqwOIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T01:09:41.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListProducts.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\ListProducts.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Products\\ListProducts.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\ListProducts.cshtml*",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Products\\ListProducts.cshtml*",
+              "ViewState": "AgIAADEBAAAAAAAAAAAqwFUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T01:02:18.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditProductForm.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\EditProductForm.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Products\\EditProductForm.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\EditProductForm.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Products\\EditProductForm.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T01:01:55.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddProductForm.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\AddProductForm.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Products\\AddProductForm.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Products\\AddProductForm.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Products\\AddProductForm.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T01:01:02.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListPaymentMethods.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\ListPaymentMethods.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\PaymentMethods\\ListPaymentMethods.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\ListPaymentMethods.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\PaymentMethods\\ListPaymentMethods.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:53:55.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditPaymentMethodForm.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\EditPaymentMethodForm.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\PaymentMethods\\EditPaymentMethodForm.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\EditPaymentMethodForm.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\PaymentMethods\\EditPaymentMethodForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:51:47.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPaymentMethodForm.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\AddPaymentMethodForm.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\PaymentMethods\\AddPaymentMethodForm.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\PaymentMethods\\AddPaymentMethodForm.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\PaymentMethods\\AddPaymentMethodForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:51:19.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImportMenu.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Import\\ImportMenu.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Import\\ImportMenu.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Import\\ImportMenu.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Import\\ImportMenu.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:49:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserExtensions.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Utils\\UserExtensions.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Utils\\UserExtensions.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Utils\\UserExtensions.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Utils\\UserExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:48:45.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Services\\Database\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Services\\Database\\DatabaseService.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Services\\Database\\DatabaseService.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Services\\Database\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:42:32.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExportMenu.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Export\\ExportMenu.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Export\\ExportMenu.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Export\\ExportMenu.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Export\\ExportMenu.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:39:09.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:36:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\SettingsController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:36:52.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:36:44.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:36:40.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:35:03.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:32:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:28:24.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentMethodsController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\PaymentMethodsController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\PaymentMethodsController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\PaymentMethodsController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\PaymentMethodsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:28:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\ImportController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\ImportController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:28:15.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExportController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ExportController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\ExportController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\ExportController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\ExportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:25:02.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\Database\\User.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Models\\Database\\User.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\Database\\User.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Models\\Database\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:22:58.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Models\\Role.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\Role.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Models\\Role.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA6wD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:20:56.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Authentication\\Register.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Authentication\\Register.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Authentication\\Register.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Authentication\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:17:30.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Services\\Database\\UsersService.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Services\\Database\\UsersService.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Services\\Database\\UsersService.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Services\\Database\\UsersService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwEcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:15:49.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:13:17.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductSale.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\ProductSale.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Models\\ProductSale.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\ProductSale.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Models\\ProductSale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:28:28.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:28:32.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Views\\Authentication\\Login.cshtml",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "InventoryWebApplication\\Views\\Authentication\\Login.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwGkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T00:14:52.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Startup.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Startup.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Startup.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Startup.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:12:08.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryWebApplication\\Program.cs",
+              "ToolTip": "D:\\Inventory_Super_Market_LDS\\InventoryWebApplication\\Program.cs",
+              "RelativeToolTip": "InventoryWebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:12:07.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-@using InventoryWebApplication.Models.Database
+﻿@using InventoryWebApplication.Models.Database
 @using InventoryWebApplication.Services.Database
 @using System.Globalization
 @model InventoryWebApplication.Operations.MessageIdOperation
@@ -20,37 +20,120 @@
 }
 else
 {
-    <form accept-charset="UTF-8" action="/paymentMethods/edit/@Model.Id" class="simple-form" method="post">
+    <form accept-charset="UTF-8" action="/paymentMethods/edit/@Model.Id" class="simple-form edit-payment-form" method="post">
         <div class="form-section">
-            <label class="form-label" for="idInput">Id: </label>
-            <input value="@paymentMethod.Id" readonly disabled type="text" id="idInput">
-            <br>
+            <div class="form-group">
+                <label class="form-label" for="idInput">Id:</label>
+                <input value="@paymentMethod.Id" readonly disabled type="text" id="idInput" />
+            </div>
 
-            <label class="form-label" for="nameInput">Name: </label>
-            <input value="@paymentMethod.Name" type="text" name="name" id="nameInput"/>
-            <br/>
+            <div class="form-group">
+                <label class="form-label" for="nameInput">Name:</label>
+                <input value="@paymentMethod.Name" type="text" name="name" id="nameInput" required />
+            </div>
 
-            <label class="form-label" for="profitMarginInput">Profit margin (%): </label>
-            <input value="@paymentMethod.ProfitMarginPercentage.ToString(CultureInfo.InvariantCulture)" type="number" step="1" min="0" max="100" name="profitMargin" id="profitMarginInput"/>
-            <br/>
+            <div class="form-group">
+                <label class="form-label" for="profitMarginInput">Profit margin (%):</label>
+                <input value="@paymentMethod.ProfitMarginPercentage.ToString(CultureInfo.InvariantCulture)" type="number" step="1" min="0" max="100" name="profitMargin" id="profitMarginInput" required />
+            </div>
         </div>
 
-        <div>
-            <button class="btn-primary" type="submit">Save</button>
+        <div class="form-actions">
+            <button class="btn-secondary" type="submit">Save</button>
             <a href="/paymentMethods">
-                <button class="btn-primary" type="button">Discard Changes</button>
+                <button class="btn-secondary" type="button">Discard Changes</button>
             </a>
-            <button class="btn-primary" id="btnDelete" type="button">Delete</button>
+            <button class="btn-danger" id="btnDelete" type="button">Delete</button>
         </div>
     </form>
 
-@section Scripts
-{
-    <script>
-        $('#btnDelete').click(function() {
-            sendDeleteRequest("/paymentMethods/delete/@Model.Id")
-            redirectTo("/paymentMethods");
-        });
-    </script>
-}
+    <style>
+        .edit-payment-form {
+            background-color: #cce5ff; /* xanh dương nhạt */
+            padding: 30px 35px;
+            border-radius: 12px;
+            max-width: 500px;
+            margin: 40px auto;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+            .edit-payment-form .form-section {
+                display: flex;
+                flex-direction: column;
+                gap: 25px; /* khoảng cách dọc đều */
+            }
+
+            /* Label & input cùng hàng */
+            .edit-payment-form .form-group {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .edit-payment-form .form-label {
+                font-weight: 600;
+                color: #004085;
+                flex: 0 0 40%; /* label chiếm 40% */
+            }
+
+            .edit-payment-form input[type="text"],
+            .edit-payment-form input[type="number"] {
+                flex: 1 1 55%; /* input chiếm 55% */
+                padding: 10px;
+                border-radius: 8px;
+                border: 1px solid #004085;
+                font-size: 14px;
+            }
+
+        .form-actions {
+            display: flex;
+            justify-content: flex-end; /* căn phải */
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn-secondary {
+            background-color: #004085;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-secondary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-danger:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+    </style>
+
+    @section Scripts
+    {
+        <script>
+            $('#btnDelete').click(function() {
+                if(confirm('Are you sure you want to delete this payment method?')) {
+                    sendDeleteRequest("/paymentMethods/delete/@Model.Id");
+                    redirectTo("/paymentMethods");
+                }
+            });
+        </script>
+    }
 }

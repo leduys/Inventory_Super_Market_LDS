@@ -42,8 +42,9 @@ namespace InventoryWebApplication
                 o.ExpireTimeSpan = TimeSpan.FromHours(24);
             });
 
-            services.AddDbContext<DatabaseContext>(o =>
-                o.UseSqlite(Configuration["SQLiteConnection:SQLiteConnectionString"]));
+            services.AddDbContext<DatabaseContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
 
             services.AddTransient<DatabaseService<User>, UsersService>();

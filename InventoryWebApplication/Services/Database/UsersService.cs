@@ -16,22 +16,19 @@ namespace InventoryWebApplication.Services.Database
         private static readonly Regex PasswordRegex = new("^\\w{4,}$", RegexOptions.Compiled);
         private readonly ILogger<DatabaseService<User>> _logger;
 
-        public UsersService(DatabaseContext databaseContext, ILogger<DatabaseService<User>> logger) : base(
-            databaseContext.Users, databaseContext, logger)
+        public UsersService(DatabaseContext databaseContext, ILogger<DatabaseService<User>> logger)
+            : base(databaseContext.Users, databaseContext, logger)
         {
             _logger = logger;
         }
 
-        /// <summary>
-        ///     Checks whether the password is valid
-        /// </summary>
-        /// <param name="password">The password to be checked</param>
-        /// <returns>True if the password is valid</returns>
+        //Kiểm tra password hợp lệ
         public static bool IsPasswordValid([NotNull] string password)
         {
             return PasswordRegex.IsMatch(password);
         }
 
+        // Băm password SHA256
         private static string GetPasswordHashString([NotNull] string password)
         {
             byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
@@ -39,30 +36,48 @@ namespace InventoryWebApplication.Services.Database
             return Encoding.UTF8.GetString(passwordHash);
         }
 
-        /// <summary>
-        ///     Gets a User with the specified name and password
-        /// </summary>
-        /// <param name="name">Name of the user to find</param>
-        /// <param name="password">Password of the user to find</param>
-        /// <returns>Element with the provided name and password or null if not found</returns>
+        // Lấy user theo tên và mật khẩu (dùng cho login)
         [ItemCanBeNull]
         public async Task<User> GetByNameAndPassword([NotNull] string name, [NotNull] string password)
         {
             string passwordHash = GetPasswordHashString(password);
             string lowerUsername = name.ToLower();
 
-            // ReSharper disable once SpecifyStringComparison
             return await ItemSet.FirstOrDefaultAsync(o =>
                 o.Name.ToLower() == lowerUsername &&
                 o.Password == passwordHash);
         }
 
-        /// <summary>
-        ///     Deletes an element of the table, ignoring a name. This is used to prevent a User from deleting itself
-        /// </summary>
-        /// <param name="id">Id of the element to delete</param>
-        /// <param name="ignoreName">Name to ignore</param>
-        /// <returns>True if the element was found and deleted</returns>
+        // Thêm mới (dùng trong Register)
+        public async Task<bool> Create([NotNull] User user)
+        {
+            if (string.IsNullOrWhiteSpace(user.Name) || string.IsNullOrWhiteSpace(user.Password))
+            {
+                _logger.LogWarning("User creation failed: Missing name or password");
+                return false;
+            }
+
+            if (!IsPasswordValid(user.Password))
+            {
+                _logger.LogWarning("User creation failed: Password invalid");
+                return false;
+            }
+
+            // Hash password trước khi lưu
+            user.Password = GetPasswordHashString(user.Password);
+            bool result = await base.Add(user);
+            return result;
+        }
+
+        // Tìm user theo tên
+        [ItemCanBeNull]
+        public async Task<User> GetByName([NotNull] string name)
+        {
+            string lowerName = name.ToLower();
+            return await ItemSet.FirstOrDefaultAsync(o => o.Name.ToLower() == lowerName);
+        }
+
+        // Xóa user (giữ nguyên)
         public async Task<bool> Delete(int id, string ignoreName)
         {
             User element = await GetById(id);
@@ -83,12 +98,14 @@ namespace InventoryWebApplication.Services.Database
             return true;
         }
 
+        // Ghi đè Add() — băm password trước khi thêm
         public override Task<bool> Add(User element)
         {
             element.Password = GetPasswordHashString(element.Password);
             return base.Add(element);
         }
 
+        // Ghi đè cập nhật
         protected override void SetValues(User target, User values)
         {
             target.Name = values.Name;

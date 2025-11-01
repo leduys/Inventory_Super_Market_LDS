@@ -19,7 +19,7 @@ namespace InventoryWebApplication.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult ListPaymentMethods()
         {
             return View();
@@ -27,7 +27,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("add")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult AddPaymentMethodForm()
         {
             return View(MessageOperation.Empty);
@@ -35,7 +35,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("add")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public async Task<IActionResult> AddPaymentMethod([FromForm] string name, [FromForm] int profitMargin)
         {
             if (await _paymentMethodsService.Add(new PaymentMethod(name, profitMargin)))
@@ -47,7 +47,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult EditPaymentMethodForm(int id)
         {
             return View(new MessageIdOperation(id));
@@ -55,7 +55,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public async Task<IActionResult> EditPaymentMethod(int id, [FromForm] string name, [FromForm] int profitMargin)
         {
             if (await _paymentMethodsService.UpdateById(id, new PaymentMethod(name, profitMargin)))

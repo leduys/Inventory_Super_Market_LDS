@@ -29,7 +29,7 @@ namespace InventoryWebApplication.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = Role.SellerAndAbove)]
+        //[Authorize(Roles = Role.SellerAndAbove)]
         public IActionResult SalesMenu()
         {
             return View();
@@ -37,7 +37,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("sell")]
-        [Authorize(Roles = Role.SellerAndAbove)]
+        //[Authorize(Roles = Role.SellerAndAbove)]
         public async Task<IActionResult> SellProducts([FromBody] SaleInfo info)
         {
             info.SellTime = DateTime.Now;

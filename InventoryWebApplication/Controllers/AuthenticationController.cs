@@ -36,11 +36,7 @@ namespace InventoryWebApplication.Controllers
                 new(ClaimTypes.Role, user.Role)
             }, CookieAuthenticationDefaults.AuthenticationScheme);
 
-            ClaimsPrincipal claimsPrincipal = new(new[]
-            {
-                claimsIdentity
-            });
-
+            ClaimsPrincipal claimsPrincipal = new(new[] { claimsIdentity });
             await HttpContext.SignInAsync(claimsPrincipal);
 
             return RedirectToAction("Index", "Home");
@@ -57,6 +53,45 @@ namespace InventoryWebApplication.Controllers
         public IActionResult Login()
         {
             return View(MessageOperation.Empty);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("register")]
+        public IActionResult Register()
+        {
+            return View(MessageOperation.Empty);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("register")]
+        public async Task<IActionResult> Register([FromForm] string name, [FromForm] string password, [FromForm] string confirmPassword)
+        {
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(password))
+                return View("Register", new MessageOperation("Please fill in all fields"));
+
+            if (password != confirmPassword)
+                return View("Register", new MessageOperation("Passwords do not match"));
+
+            if (!UsersService.IsPasswordValid(password))
+                return View("Register", new MessageOperation("Password must have at least 4 characters"));
+
+            // Kiểm tra username trùng
+            var existingUser = await _usersService.GetByName(name);
+            if (existingUser != null)
+                return View("Register", new MessageOperation("Username already exists"));
+
+            var newUser = new User
+            {
+                Name = name,
+                Password = password,
+                Role = "User"
+            };
+
+            await _usersService.Create(newUser);
+
+            return RedirectToAction("Login", "Authentication");
         }
 
         [HttpGet]

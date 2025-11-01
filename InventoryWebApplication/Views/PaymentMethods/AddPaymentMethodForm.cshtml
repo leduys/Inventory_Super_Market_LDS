@@ -1,18 +1,83 @@
-@{
+﻿@{
     ViewBag.Title = "Add Payment Method";
     ViewBag.PreviousPage = "paymentMethods";
     Layout = "_FormsLayout";
 }
 
-<form class="simple-form" method="post" asp-controller="PaymentMethods" asp-action="AddPaymentMethod">
+<form class="simple-form add-edit-payment-form" method="post" asp-controller="PaymentMethods" asp-action="AddPaymentMethod">
     <div class="form-section">
-        <label class="form-label" for="nameInput">Name: </label>
-        <input type="text" name="name" id="nameInput"/>
-        <br/>
+        <div class="form-group">
+            <label class="form-label" for="nameInput">Name:</label>
+            <input type="text" name="name" id="nameInput" required />
+        </div>
 
-        <label class="form-label" for="profitMarginInput">Profit margin (%): </label>
-        <input type="number" step="1" min="0" max="100" name="profitMargin" id="profitMarginInput"/>
-        <br/>
+        <div class="form-group">
+            <label class="form-label" for="profitMarginInput">Profit margin (%):</label>
+            <input type="number" step="1" min="0" max="100" name="profitMargin" id="profitMarginInput" required />
+        </div>
     </div>
-    <button class="btn-primary" type="submit">Add</button>
+
+    <div class="form-actions">
+        <button class="btn-secondary" type="submit">Save</button>
+    </div>
 </form>
+
+<style>
+    .add-edit-payment-form {
+        background-color: #cce5ff; /* xanh dương nhạt */
+        padding: 30px 35px; /* đủ padding 2 bên và trên/dưới */
+        border-radius: 12px;
+        max-width: 500px;
+        margin: 40px auto;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 25px; /* khoảng cách giữa các form-group */
+    }
+
+        /* form-group căn label và input ngang đều */
+        .add-edit-payment-form .form-group {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between; /* label và input cách đều hai bên */
+        }
+
+        .add-edit-payment-form .form-label {
+            font-weight: 600;
+            color: #004085;
+            flex: 0 0 40%; /* label chiếm 40% */
+        }
+
+        .add-edit-payment-form input[type="text"],
+        .add-edit-payment-form input[type="number"] {
+            flex: 1 1 55%; /* input chiếm phần còn lại */
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #004085;
+            font-size: 14px;
+        }
+
+    .form-actions {
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end; /* nút Save căn phải */
+    }
+
+    .btn-secondary {
+        background-color: #004085;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+</style>
+

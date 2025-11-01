@@ -21,7 +21,7 @@ namespace InventoryWebApplication.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult ListUsers()
         {
             return View();
@@ -29,7 +29,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("add")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public async Task<IActionResult> AddUser([FromForm] string name, [FromForm] string password,
             [FromForm] string role)
         {
@@ -58,7 +58,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("add")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult AddUserForm()
         {
             return View(MessageOperation.Empty);
@@ -66,7 +66,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpDelete]
         [Route("delete/{id:int}")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public async Task<IActionResult> DeleteUser([FromRoute] int id)
         {
             bool result = await _usersService.Delete(id, User.Claims.GetName());
@@ -75,7 +75,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult EditUserForm([FromRoute] int id)
         {
             return View(new MessageIdOperation(id));
@@ -83,7 +83,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public async Task<IActionResult> EditUser([FromRoute] int id, [FromForm] string name,
             [FromForm] string password, [FromForm] string role)
         {

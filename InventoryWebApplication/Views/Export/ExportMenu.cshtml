@@ -1,34 +1,130 @@
-@using InventoryWebApplication.Utils.Formatting
+﻿@using InventoryWebApplication.Utils.Formatting
 @using InventoryWebApplication.Services.Exporter
 @{
     ViewBag.Title = "Export Menu";
-    ViewBag.PreviousPage = "";
     Layout = "_Layout";
 }
 
-<h3>Export</h3>
-<form class="simple-form" asp-controller="Export" asp-action="ExportTable" method="get" target="_blank">
-    <div class="form-section">
-        <label class="form-label">Table</label>
-        <select id="tableSelect" name="name">
-            @foreach (string name in ExporterFactory.AvailableTables)
-            {
-                <option value="@name">@name.Capitalize()</option>
-            }
-        </select>
-        <br/>
+<div class="export-container">
+    <h2 class="export-title">Export Data</h2>
 
-        <label class="form-label" for="modeSelect">Mode</label>
-        <select id="modeSelect" name="mode">
-            @foreach (string mode in ExporterFactory.AvailableModes)
-            {
-                <option value="@mode">@mode.Capitalize()</option>
-            }
-        </select>
-    </div>
+    <form class="export-form" asp-controller="Export" asp-action="ExportTable" method="get" target="_blank">
+        <div class="form-group">
+            <label for="tableSelect">Table</label>
+            <select id="tableSelect" name="name" required>
+                @foreach (string name in ExporterFactory.AvailableTables)
+                {
+                    <option value="@name">@name.Capitalize()</option>
+                }
+            </select>
+        </div>
 
-    <button class="btn-secondary" type="submit">Export</button>
-    <a class="normal-text-link" asp-controller="Home" asp-action="Index">
-        <button class="btn-secondary" type="button">Back</button>
-    </a>
-</form>
+        <div class="form-group">
+            <label for="modeSelect">Mode</label>
+            <select id="modeSelect" name="mode" required>
+                @foreach (string mode in ExporterFactory.AvailableModes)
+                {
+                    <option value="@mode">@mode.Capitalize()</option>
+                }
+            </select>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-primary" type="submit">Export</button>
+            <a asp-controller="Home" asp-action="Index" class="btn-secondary">Back</a>
+        </div>
+    </form>
+</div>
+
+<style>
+    .export-container {
+        max-width: 450px;
+        margin: 60px auto;
+        padding: 30px;
+        background-color: #cce5ff; /* xanh dương nhạt */
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        color: #333;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .export-title {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #004085;
+    }
+
+    .export-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .export-form label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #004085;
+    }
+
+    .export-form select {
+        width: 100%;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #e6f0ff;
+        color: #004085;
+        transition: 0.3s;
+    }
+
+        .export-form select:focus {
+            outline: none;
+            box-shadow: 0 0 6px rgba(0,123,255,0.4);
+        }
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        flex: 1;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        flex: 1;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #ffffff;
+        color: #004085;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+        .btn-secondary:hover {
+            background-color: #e6e6e6;
+        }
+</style>

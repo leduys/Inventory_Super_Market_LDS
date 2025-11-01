@@ -23,7 +23,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("menu")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public IActionResult ImportMenu()
         {
             return View(new List<MessageOperation>(0));

@@ -1,0 +1,122 @@
+﻿@model InventoryWebApplication.Operations.MessageOperation
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "_FormsLayout";
+}
+
+<div class="register-container">
+    <h2 class="register-title">Create an Account</h2>
+    <form class="register-form" accept-charset="UTF-8" asp-controller="Authentication" asp-action="Register" method="post">
+        <div class="form-group">
+            <label for="nameInput">Username</label>
+            <input name="name" type="text" id="nameInput" placeholder="Enter your username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="passwordInput">Password</label>
+            <input name="password" type="password" id="passwordInput" placeholder="Enter your password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmInput">Confirm Password</label>
+            <input name="confirmPassword" type="password" id="confirmInput" placeholder="Confirm your password" required>
+        </div>
+
+        <button class="btn-primary" type="submit">Register</button>
+
+        <p class="login-link">
+            Already have an account? <a asp-controller="Authentication" asp-action="Login">Login here</a>
+        </p>
+    </form>
+
+    @if (!string.IsNullOrWhiteSpace(Model?.Message))
+    {
+        <div class="error-message">
+            @Model.Message
+        </div>
+    }
+</div>
+
+<style>
+    .register-container {
+        max-width: 400px;
+        margin: 60px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 90%;
+    }
+
+    .register-title {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #333333;
+    }
+
+    .register-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .register-form label {
+        display: block;
+        margin-bottom: 6px;
+        color: #555555;
+        font-weight: 500;
+    }
+
+    .register-form input {
+        width: 100%;
+        padding: 10px 14px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+        .register-form input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 6px rgba(0,123,255,0.3);
+        }
+
+    .btn-primary {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #007bff;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .login-link {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+        color: #555;
+    }
+
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .login-link a:hover {
+                text-decoration: underline;
+            }
+
+    .error-message {
+        color: red;
+        margin-top: 15px;
+        text-align: center;
+    }
+</style>

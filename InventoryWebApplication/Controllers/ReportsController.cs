@@ -9,7 +9,7 @@ namespace InventoryWebApplication.Controllers
     public class ReportsController : Controller
     {
         [HttpGet]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public IActionResult GeneralReports([FromQuery] FilterOperation startEnd)
         {
             return View(startEnd);

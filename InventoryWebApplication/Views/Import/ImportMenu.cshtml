@@ -1,4 +1,4 @@
-@using InventoryWebApplication.Utils.Formatting
+﻿@using InventoryWebApplication.Utils.Formatting
 @using InventoryWebApplication.Services.Importer
 @using InventoryWebApplication.Operations
 @model List<InventoryWebApplication.Operations.MessageOperation>
@@ -15,61 +15,140 @@
 }
 
 <h3>Import</h3>
+
 @foreach (MessageOperation message in Model)
 {
     <div role="alert" class="alert alert-@message.Severity fade-alert">@message.Message</div>
 }
 
-<form class="simple-form" enctype="multipart/form-data" asp-controller="Import" asp-action="ImportTable" method="post">
+<form class="simple-form import-form" enctype="multipart/form-data" asp-controller="Import" asp-action="ImportTable" method="post">
     <div class="form-section">
-        <label class="form-label">Table</label>
-        <select id="tableSelect" onchange="updateHeaders()" name="name">
-            @foreach ((string name, string[] headers) in ImporterFactory.AvailableTablesAndHeaders)
-            {
-                <option value="@name" data-headers="@FormatHeaders(headers)">@name.Capitalize()</option>
-            }
-        </select>
-        <br/>
+        <div class="form-group">
+            <label class="form-label">Table</label>
+            <select id="tableSelect" onchange="updateHeaders()" name="name">
+                @foreach ((string name, string[] headers) in ImporterFactory.AvailableTablesAndHeaders)
+                {
+                    <option value="@name" data-headers="@FormatHeaders(headers)">@name.Capitalize()</option>
+                }
+            </select>
+        </div>
 
-        <label class="form-label" for="modeSelect">Mode</label>
-        <select id="modeSelect" name="mode">
-            @foreach (string mode in ImporterFactory.AvailableModes)
-            {
-                <option value="@mode">@mode.Capitalize()</option>
-            }
-        </select><br/>
+        <div class="form-group">
+            <label class="form-label" for="modeSelect">Mode</label>
+            <select id="modeSelect" name="mode">
+                @foreach (string mode in ImporterFactory.AvailableModes)
+                {
+                    <option value="@mode">@mode.Capitalize()</option>
+                }
+            </select>
+        </div>
 
-        <label for="files">Files</label><br>
-        <input name="files" id="files" type="file" multiple>
-
-        <p class="text-secondary">
-            Expecting tables containing
-            <span id="headers">@FormatHeaders(ImporterFactory.AvailableTablesAndHeaders.First().Value)</span>
-        </p>
+        <div class="form-group">
+            <label class="form-label" for="files">Files</label>
+            <input name="files" id="files" type="file" multiple>
+            <p class="text-secondary">
+                Expecting tables containing
+                <span id="headers">@FormatHeaders(ImporterFactory.AvailableTablesAndHeaders.First().Value)</span>
+            </p>
+        </div>
     </div>
 
-    <button class="btn-secondary" type="submit">Import</button>
-    <a class="normal-text-link" asp-controller="Home" asp-action="Index">
-        <button class="btn-secondary" type="button">Back</button>
-    </a>
+    <div class="form-actions">
+        <button class="btn-secondary" type="submit">Import</button>
+        <a class="normal-text-link" asp-controller="Home" asp-action="Index">
+            <button class="btn-secondary" type="button">Back</button>
+        </a>
+    </div>
 </form>
+
+<style>
+    /* Form background */
+    .import-form {
+        background-color: #cce5ff; /* xanh dương nhạt */
+        padding: 30px;
+        border-radius: 12px;
+        max-width: 600px;
+        margin: 30px auto;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        /* Khoảng cách đều giữa các dòng */
+        .import-form .form-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px; /* khoảng cách giữa label và input/select/file */
+    }
+
+    .import-form .form-label {
+        font-weight: 600;
+        color: #004085;
+    }
+
+    .import-form select,
+    .import-form input[type="file"] {
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #004085;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .form-actions {
+        display: flex;
+        gap: 15px; /* khoảng cách giữa các button */
+        margin-top: 15px;
+    }
+
+    .import-form button.btn-secondary {
+        background-color: #004085;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .import-form button.btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+    .normal-text-link button {
+        background-color: #6c757d;
+    }
+
+    .text-secondary {
+        font-size: 13px;
+        color: #004085 !important;
+    }
+
+    .fade-alert {
+        transition: opacity 0.5s ease-in-out;
+        opacity: 1;
+        margin-bottom: 10px;
+    }
+</style>
 
 @section Scripts
 {
     <script>
         const tableSelect = document.getElementById('tableSelect');
         const headers = document.getElementById('headers');
-        
+
         function updateHeaders() {
             const element = tableSelect.options[tableSelect.selectedIndex];
             headers.innerHTML = element.getAttribute('data-headers');
         }
-        
-        function addFile() {
-            
-        }
-        
+
         fadeAlerts();
     </script>
 }
-

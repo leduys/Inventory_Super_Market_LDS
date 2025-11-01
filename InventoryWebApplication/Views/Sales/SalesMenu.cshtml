@@ -1,4 +1,4 @@
-@using InventoryWebApplication.Utils.Formatting
+﻿@using InventoryWebApplication.Utils.Formatting
 @using InventoryWebApplication.Services.Database
 @using InventoryWebApplication.Models.Database
 @model dynamic
@@ -392,4 +392,108 @@
 
         updateTotalPrice();
     </script>
+    <style>
+        /* Card & Form nền xanh nhạt */
+        .card {
+            background-color: #e6f0ff; /* xanh dương nhạt */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+
+        .card-body {
+            padding: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card-subtitle {
+            font-weight: 600;
+            color: #004085; /* xanh đậm */
+            margin-bottom: 5px;
+        }
+
+        input[type="number"], input[type="text"], select {
+            padding: 6px 10px;
+            border-radius: 8px;
+            border: 1px solid #004085;
+            font-size: 14px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Buttons */
+        .btn-primary, .btn-secondary {
+            background-color: #004085;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-primary:hover, .btn-secondary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        .btn-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 10px;
+            margin-left: 5px;
+        }
+
+            .btn-icon span[uk-icon] {
+                color: #004085; /* icon nổi bật */
+            }
+
+        /* Bảng sản phẩm */
+        .table-wrapper, .table-items-wrapper {
+            margin-top: 15px;
+            overflow-x: auto;
+        }
+
+        table.table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #e6f0ff; /* xanh dương nhạt */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+            table.table th, table.table td {
+                padding: 10px 12px;
+                border: 1px solid #b3d1ff;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            table.table th {
+                background-color: #cce5ff;
+                font-weight: 600;
+                color: #004085;
+            }
+
+            table.table tr:nth-child(even) {
+                background-color: #f2f9ff;
+            }
+
+            table.table tr:hover {
+                background-color: #d0e4ff;
+            }
+
+        .delete-list-item {
+            color: #dc3545;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .display-horizontal {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+    </style>
+
 }

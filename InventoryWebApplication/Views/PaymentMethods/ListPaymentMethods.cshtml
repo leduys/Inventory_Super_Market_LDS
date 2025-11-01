@@ -1,4 +1,4 @@
-@using InventoryWebApplication.Models.Database
+﻿@using InventoryWebApplication.Models.Database
 @using InventoryWebApplication.Services.Database
 @inject DatabaseService<PaymentMethod> _databaseService
 
@@ -9,13 +9,15 @@
 }
 
 <h3>Payment Methods</h3>
-<div class="btn-toolbar">
+
+<div class="btn-toolbar" style="margin-bottom: 15px;">
     <a asp-controller="PaymentMethods" asp-action="AddPaymentMethodForm">
         <button class="btn-secondary">Add</button>
     </a>
 </div>
+
 <div class="table-wrapper table-items-wrapper">
-    <table class="table table-bordered">
+    <table class="table table-bordered payment-table">
         <colgroup>
             <col span="1" style="width: 6%">
             <col span="1" style="width: 60%">
@@ -33,23 +35,17 @@
             <tr>
                 <td>
                     <a class="normal-text-link" href="/paymentMethods/edit/@paymentMethod.Id">
-                        <div>
-                            @paymentMethod.Id
-                        </div>
+                        <div>@paymentMethod.Id</div>
                     </a>
                 </td>
                 <td>
                     <a class="normal-text-link" href="/paymentMethods/edit/@paymentMethod.Id">
-                        <div>
-                            @paymentMethod.Name
-                        </div>
+                        <div>@paymentMethod.Name</div>
                     </a>
                 </td>
                 <td>
                     <a class="normal-text-link" href="/paymentMethods/edit/@paymentMethod.Id">
-                        <div>
-                            @paymentMethod.ProfitMarginPercentage
-                        </div>
+                        <div>@paymentMethod.ProfitMarginPercentage</div>
                     </a>
                 </td>
             </tr>
@@ -57,9 +53,61 @@
     </table>
 </div>
 
+<style>
+    .payment-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #e6f0ff; /* xanh dương nhạt */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+        .payment-table th {
+            background-color: #cce0ff; /* xanh dương đậm hơn một chút */
+            color: #004085;
+            font-weight: 600;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .payment-table td {
+            padding: 10px 12px;
+            color: #004085;
+        }
+
+        .payment-table tr:nth-child(even) {
+            background-color: #f2f8ff;
+        }
+
+        .payment-table tr:hover {
+            background-color: #d0e4ff;
+        }
+
+    .btn-secondary {
+        background-color: #004085;
+        color: white;
+        border: none;
+        padding: 8px 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+        }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+</style>
+
 @section Scripts
 {
     <script>
-        
+        // Bạn có thể thêm JS nếu muốn
     </script>
 }

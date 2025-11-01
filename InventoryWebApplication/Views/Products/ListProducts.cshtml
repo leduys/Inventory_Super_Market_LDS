@@ -1,4 +1,4 @@
-@using InventoryWebApplication.Utils.Formatting
+﻿@using InventoryWebApplication.Utils.Formatting
 @using InventoryWebApplication.Models.Database
 @using System.Globalization
 @model InventoryWebApplication.Operations.ProductsListOperation
@@ -12,7 +12,7 @@
 <h3>Products</h3>
 
 <div class="display-horizontal">
-    <input type="text" placeholder="Search" value="@(Model.Query)" id="searchBar"/>
+    <input type="text" placeholder="Search" value="@(Model.Query)" id="searchBar" />
     <button class="btn-secondary btn-icon" type="button" data-toggle="modal" data-target="#searchModal"
             id="searchButton" onclick="searchClick()">
         <span uk-icon="icon: search; ratio: 1.1"></span>
@@ -29,6 +29,7 @@
         <button class="btn-secondary">Add</button>
     </a>
 </div>
+
 <div class="table-wrapper table-items-wrapper">
     <table class="table table-bordered" id="productsTable">
         <colgroup>
@@ -80,55 +81,54 @@
         </tr>
 
         <tbody id="tableContent">
-                @foreach (Product product in Model.Products)
-                {
-                    <tr>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.Id
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.Name
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.Description.CutAfter(40)
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.AvailableQuantity
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.Cost.ToString(CultureInfo.InvariantCulture)
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            <a class="normal-text-link" href="/products/edit/@product.Id">
-                                <div>
-                                    @product.SellPrice.ToString(CultureInfo.InvariantCulture)
-                                </div>
-                            </a>
-                        </td>
-                    </tr>
-        }
+            @foreach (Product product in Model.Products)
+            {
+                <tr>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.Id
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.Name
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.Description.CutAfter(40)
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.AvailableQuantity
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.Cost.ToString(CultureInfo.InvariantCulture)
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="normal-text-link" href="/products/edit/@product.Id">
+                            <div>
+                                @product.SellPrice.ToString(CultureInfo.InvariantCulture)
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            }
         </tbody>
-
     </table>
 </div>
 
@@ -142,21 +142,21 @@
         const tableHeaderOrderButtons = Array.from(tableHeaderRow.children).map(o => o.children[0].children[1]);
         tableHeaderOrderButtons.forEach(o => defaultIcon(o));
         const tableContent = document.getElementById("tableContent");
-        
+
         let currentOrder = 0;
         let orderReversed = true;
         changeOrder(0);
-        
+
         function searchClick() {
             let value = searchBar.value;
             if (!value) return;
             window.location.assign("/products?q=" + value);
         }
-        
+
         function clearClick() {
             window.location.assign("/products");
         }
-        
+
         function changeOrder(num) {
             if (num === currentOrder) {
                 orderReversed = !orderReversed;
@@ -164,42 +164,239 @@
                 defaultIcon(tableHeaderOrderButtons[currentOrder]);
                 currentOrder = num;
             }
-            
+
             let button = tableHeaderOrderButtons[num];
-            
+
             button.setAttribute("uk-icon", "ratio: 0.7; icon: " + (orderReversed ? "chevron-down" : "chevron-up"));
             button.style.opacity = "100%";
-            
+
             let children = Array.from(tableContent.children);
-            
+
             children.sort((a, b) => {
                 let result;
-                
+
                 let propA = a.children[num].children[0].children[0].innerText;
                 let propB = b.children[num].children[0].children[0].innerText;
-                
+
                 let numA = Number.parseFloat(propA);
-                if (isNaN(numA)){ 
+                if (isNaN(numA)){
                     result = propA.localeCompare(propB);
                 } else {
                     let numB = Number.parseFloat(propB);
                     result = numA - numB;
                 }
-                
+
                 if (orderReversed) result *= -1;
-                console.log(propA + " " + propB + " " + result);
                 return result;
             });
-            
+
             for (let i = 0; i < children.length; i++) {
                 tableContent.removeChild(children[i]);
                 tableContent.appendChild(children[i]);
             }
         }
-        
+
         function defaultIcon(element) {
             element.setAttribute("uk-icon", "ratio: 0.7; icon: minus");
             element.style.opacity = "50%";
         }
     </script>
+
+    <style>
+        /* Form nền xanh dương nhạt */
+        .simple-form {
+            background-color: #e6f0ff; /* xanh dương nhạt */
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 500px;
+            margin: 30px auto;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group, .form-field {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #004085;
+        }
+
+        input[type="text"], input[type="number"], textarea {
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #004085;
+            font-size: 14px;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .btn-primary, .btn-secondary {
+            background-color: #004085;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-primary:hover, .btn-secondary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-danger:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        /* Bảng sản phẩm xanh dương nhạt */
+        .table-items-wrapper {
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        table.table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #e6f0ff; /* xanh dương nhạt */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+            table.table th,
+            table.table td {
+                padding: 10px 15px;
+                border: 1px solid #b3d1ff;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            table.table th {
+                background-color: #cce5ff; /* xanh dương nhạt đậm hơn */
+                font-weight: 600;
+                color: #004085;
+            }
+
+            table.table tr:nth-child(even) {
+                background-color: #f2f9ff;
+            }
+
+            table.table tr:hover {
+                background-color: #d0e4ff;
+            }
+
+        .normal-text-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        /* Nút thêm / tìm kiếm nổi bật */
+        .btn-toolbar .btn-secondary {
+            background-color: #004085 !important; /* xanh đậm */
+            color: white !important;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* thêm đổ bóng nổi */
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-toolbar .btn-secondary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* nổi bật hơn khi hover */
+            }
+
+        /* Giữ khoảng cách giữa các nút trong toolbar */
+        .btn-toolbar {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px; /* khoảng cách giữa các nút */
+        }
+
+
+        .btn-secondary {
+            background-color: #004085;
+            color: white;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+            .btn-secondary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        .btn-icon {
+            padding: 5px 10px;
+            margin-left: 5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .display-horizontal {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        #searchBar {
+            flex: 1;
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #004085;
+            font-size: 14px;
+        }
+
+
+        /* Icon trong header */
+        .center-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .cur-pointer {
+            cursor: pointer;
+        }
+        /* Icon search/clear nổi bật
+        .btn-icon span[uk-icon] {
+            color: #004085 !important;
+            opacity: 1 !important;
+            font-size: 1.1rem;
+        } */
+
+    </style>
 }

@@ -21,7 +21,7 @@ namespace InventoryWebApplication.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public async Task<IActionResult> ListProducts([FromQuery] [CanBeNull] string q = null)
         {
             ProductsListOperation operation = new()
@@ -35,7 +35,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("add")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public IActionResult AddProductForm()
         {
             return View(MessageOperation.Empty);
@@ -43,7 +43,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("{id:int}")]
-        [Authorize(Roles = Role.SellerAndAbove)]
+        //[Authorize(Roles = Role.SellerAndAbove)]
         public async Task<IActionResult> ProductById([FromRoute] int id)
         {
             Product product = await _productsService.GetById(id);
@@ -53,7 +53,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("add")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public async Task<IActionResult> AddProduct([FromForm] string name, [FromForm] string description,
             [FromForm] int availableQuantity, [FromForm] string cost, [FromForm] string sell)
         {
@@ -75,7 +75,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpDelete]
         [Route("delete/{id:int}")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public async Task<IActionResult> DeleteProduct([FromRoute] int id)
         {
             bool result = await _productsService.DeleteById(id);
@@ -84,7 +84,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpGet]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public IActionResult EditProductForm([FromRoute] int id)
         {
             return View(new MessageIdOperation(id));
@@ -92,7 +92,7 @@ namespace InventoryWebApplication.Controllers
 
         [HttpPost]
         [Route("edit/{id:int}")]
-        [Authorize(Roles = Role.StockManagerAndAbove)]
+        //[Authorize(Roles = Role.StockManagerAndAbove)]
         public async Task<IActionResult> EditProduct([FromRoute] int id, [FromForm] string name,
             [FromForm] string description, [FromForm] int availableQuantity, [FromForm] string cost,
             [FromForm] string sell)

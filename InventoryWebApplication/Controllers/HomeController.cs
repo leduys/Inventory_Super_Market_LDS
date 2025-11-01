@@ -16,7 +16,7 @@ namespace InventoryWebApplication.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public IActionResult Index()
         {
             return View();

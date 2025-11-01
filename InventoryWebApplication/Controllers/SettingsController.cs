@@ -10,7 +10,7 @@ namespace InventoryWebApplication.Controllers
     public class SettingsController : Controller
     {
         [HttpGet]
-        [Authorize(Roles = Role.HrManager)]
+        //[Authorize(Roles = Role.HrManager)]
         public IActionResult Settings()
         {
             return View(MessageOperation.Empty);
